@@ -103,7 +103,7 @@ const Header = ({ isDarkTheme, setDarkTheme = (_b) => {} }) => {
                             <div className="w-1/2 lg:w-1/4 flex items-center px-2">
                                 <Link passHref href="/">
                                     <a>
-                                        <Image alt="Team bi0s" src="/dark-logo.png" width={106} height={37} />
+                                        <Image alt="Team bi0s" src={isDarkTheme ? "/bioshardwarew.png":"/dark-logo.png" } width={100} height={60} />
                                     </a>
                                 </Link>
                             </div>
@@ -113,7 +113,7 @@ const Header = ({ isDarkTheme, setDarkTheme = (_b) => {} }) => {
                                         {MENU_ITEMS.map((i) => (
                                             <MenuItem key={i.href} {...i} />
                                         ))}
-                                        <button className="ml-4 flex items-center text-sm" onClick={() => setDarkTheme(!isDarkTheme)}>
+                                        <button className="ml-4 flex items-center text-sm icons" onClick={() => setDarkTheme(!isDarkTheme)}>
                                             <Image
                                                 alt="Switch Theme"
                                                 src={isDarkTheme ? "/icons/sun.svg" : "/icons/moon.svg"}

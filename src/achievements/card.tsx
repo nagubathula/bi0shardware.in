@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import Image from "next/image";
 
 const AchievementCardSection = styled('div')`
   p {
@@ -11,15 +12,19 @@ const AchievementCardSection = styled('div')`
   }
 `;
 
-const AchievementCard = ({ text, infoText = null, date = null, links = [] }) => (
+const AchievementCard = ({ text, infoText = null, date = null, links = []}) => (
     <AchievementCardSection className="py-5 border-dashed border-opacity-60 border-b-2">
-        <div className="flex items-center opacity-80 mb-3">
-            <div className="w-100 md:w-2/3">
-                <div>{infoText}</div>
+        <div className="flex items-center w-100 mb-6" style={{display:"flex", alignItems:"start", justifyContent:"center"}}>
+                <div className="rounded-4 shadow-strong-4" ><Image alt="achievements" src="/achievements/test.jpg" width={450} height={300} /></div>
             </div>
-            <div className="w-100 md:w-1/3 flex justify-end text-sm font-semibold mr-4">
-                {date}
+        <div className="flex items-center opacity-80 mb-5">
+        
+            <div className="w-100 md:w-2/4">
+                <h1 className="text-3xl font-bold">{infoText}</h1>
+                
             </div>
+            
+        
         </div>
         <p className="my-3">{text}</p>
         {links?.length > 0 && (

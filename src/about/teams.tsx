@@ -35,19 +35,19 @@ const TEAMS = [
 
 const Teams = () => (
     <section id="teams" className="py-8">
-        <h2 className="font-semibold text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
+        <h2 className="font-semibold font-Anton highlight text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
             Our Teams
         </h2>
-        <p className="mb-3">
+        <p className="mb-3 font-jetmono">
            We have specialized teams focusing on various areas in cyber-security -
         </p>
         <div className="flex flex-wrap mx-0 my-4">
             {TEAMS.map((t) => (
                 <div className="w-full md:w-1/2 py-6 px-3" key={t.name}>
-                    <div className="text-lg md:text-xl lg:text-2xl font-semibold mb-2">
+                    <div className="text-lg font-Anton  md:text-xl lg:text-2xl font-semibold mb-2">
                         {t.name}
                     </div>
-                    <p style={{ width: '450px', maxWidth: '100%' }} className="opacity-80 text-sm">{t.description}</p>
+                    <p style={{ width: '450px', maxWidth: '100%' }} className="opacity-80 font-jetmono text-sm">{t.description}</p>
                 </div>
             ))}
         </div>

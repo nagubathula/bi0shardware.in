@@ -1,51 +1,25 @@
 const Achievements = [
-    {
-        type: 'CTF',
-        infoText: '#1 @ DomeCTF at c0c0n 2022',
-        text: <>
-            Our members <b>Adithya Suresh Kumar (@amun_rha)</b> and <b>Rohit Narayanan (@Lu513n)</b> won the
-            Dome CTF organized at C0c0n XV cyber security conference. The team coming first among 64 teams also
-            received a cash prize of <b>1 lakhs</b>.
-        </>,
-        date: 'September 24, 2022'
-    },
-    {
-        type: 'CTF',
-        infoText: '#1 @ Adversary Wars CTF at c0c0n 2022',
-        text: <>
-            Our member <b>Yadhu Krishna M (@YadhuKrishna_)</b> won the Adversary Wars CTF organized at C0c0n XV, held
-            at Grand Hyatt, Kochi on September 24th
-        </>,
-        date: 'September 24, 2022'
-    },
+    
+    
     {
         type: 'CVE',
-        infoText: 'CVE-2021-23718, CVE-2021-23448',
+        infoText: 'Embedded Systems',
         text: <>
-            <b>Sayooj B Kumar</b> discovered a prototype pollution bug inside the <b>config-handler</b>, which is a Node
-            package and at <b>ssrf-agent</b>. Both were awarded a CVE (Common Vulnerabilities and Exposures) for the
-            discoveries.
+            Embedded systems include a variety of hardware and software components, which perform specific functions in host systems, for example, satellites, washing machines, robots, hand-held telephones and automobiles.
         </>,
         date: 'November 22, 2021',
         links: [
             {
-                text: 'View CVE-2021-23718 Report',
+                text: 'Learn More',
                 href: 'https://cve.report/CVE-2021-23718'
             },
-            {
-                text: 'View CVE-2021-23448 Report',
-                href: 'https://www.cve.org/CVERecord?id=CVE-2021-23448'
-            }
         ]
     },
     {
         type: 'CTF',
-        infoText: '#13 @ Volga 21 World Finals',
+        infoText: 'Firmware Analysis',
         text: <>
-            bi0s qualified and were invited for the <b>Volga 2021 world finals at Russia</b>. Volga is a high-profile,
-            international jeopardy-styled CTF conducted by a group of IT enthusiasts based in Samara, Russia. Our members {' '}
-            <b>Jaswanth Bommidi</b>, <b>Pranjal Singh</b> and <b>Sourag K</b> flew to Russia and participated in the
-            contest, and emerged <b>13th worldwide</b>.
+           Firmware is the code that runs on an embedded device.In embedded systems, manufacturers usually go for functionality over security to decrease manufacturing cost.We analyze the firmware, to find various security vulnerabilities present.
         </>,
         date: 'September 16, 2021',
         links: [
@@ -57,10 +31,9 @@ const Achievements = [
     },
     {
         type: 'CVE',
-        infoText: 'CVE-2021-23404',
+        infoText: 'Wireless Security',
         text: <>
-            <b>Yadhu Krishna M</b> discovered a <b>high severity</b> bug in <b>SQLite-Web</b>, where the dashboard area
-            allows sensitive actions to be performed without validating that the request originated from the application.
+            As everything is getting mobile and wireless, the urgency for effective wireless threat protection is on everyone's watch, as wireless networks are developed rapidly making them vulnerable in a myriad of ways.
         </>,
         date: 'September 08, 2021',
         links: [
@@ -72,10 +45,9 @@ const Achievements = [
     },
     {
         type: 'GSoC',
-        infoText: 'Google Summer of Code',
+        infoText: 'Automotive Security',
         text: <>
-            <b>Simran Kathpalia</b> got selected for Google Summer of Code 2021 with <b>FreeBSD</b>,
-            and worked on a project with a goal to &apos;enhance syzkaller support for FreeBSD&apos;.
+            With consumers expecting new complex features for their ride, it's getting difficult for engineers to make systems that go hand in hand with security and required technicalities. We look into the extremely complex systems of vehicle security and make sure that it keeps up with the new features.
         </>,
         date: 'May 2021',
         links: [
@@ -87,10 +59,9 @@ const Achievements = [
     },
     {
         type: 'GSoC',
-        infoText: 'Google Summer of Code',
+        infoText: 'ICS / SCADA',
         text: <>
-            <b>Ashwin C</b> got selected for Google Summer of Code 2021 with <b>Rizin</b>,
-            and worked on a project titled - &apos;Support for CPU and Platform Profiles&apos;.
+            SCADA and Industrial Control Systems systems have been relatively excluded from security testing by the security industry. This has made them vulnerable and leading to some successful intrusions that have resulted in malicious attackers obtaining administrative access to core systems.
         </>,
         date: 'May 2021',
         links: [
@@ -102,36 +73,13 @@ const Achievements = [
     },
     {
         type: 'GSoC',
-        infoText: 'Google Summer of Code',
+        infoText: 'Microarchitecture Analysis',
         text: <>
-            <b>Vishnu Madhav</b> got selected for Google Summer of Code 2021 with <b>GNU GCC</b>,
-            and worked on a project to &apos;Make Cp-demangler non recursive&apos;.
+            A side-channel attack is a security exploit that aims to gather information from or influence the program execution of a system by measuring or exploiting indirect effects of the system or its hardware -- rather than targeting the program or its code directly.
         </>,
         date: 'May 2021'
     },
-    {
-        type: 'GSoC',
-        infoText: 'Google Summer of Code',
-        text: <>
-            <b>Pranjal Singh</b> got selected for Google Summer of Code 2021 with <b>The Honeynet Project</b>,
-            for the Xen project.
-        </>,
-        date: 'May 2021'
-    },
-    {
-        type: 'CVE',
-        text: <>
-            <b>Yaswant</b> (@az3z3l) found a <b>high severity</b> vulnerability at <b>GitLab</b> where an attacker could
-            <i>bypass the existing CSRF check on the GraphQL endpoint</i>, and bounty of 3370 USD was awarded.
-        </>,
-        date: 'March 10, 2021',
-        links: [
-            {
-                text: 'View HackerOne Report',
-                href: 'https://hackerone.com/reports/1122408'
-            }
-        ]
-    },
+    
 ];
 
 export default Achievements;

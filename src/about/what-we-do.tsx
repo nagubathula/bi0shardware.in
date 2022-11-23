@@ -15,10 +15,10 @@ const WhatWeDoContainer = styled.section`
 
 const WhatWeDoSection = () => (
     <WhatWeDoContainer id="what-we-do">
-        <h2 className="font-semibold text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
+        <h2 className="font-semibold font-Anton highlight text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
             What do we do?
         </h2>
-        <p className="mb-3">
+        <p className="mb-3 font-jetmono">
             Here are some of the things our members do:
         </p>
         <ol>

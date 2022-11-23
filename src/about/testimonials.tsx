@@ -20,10 +20,10 @@ const TestimonialsContainer = styled.section`
 
 const Testimonials = () => (
     <TestimonialsContainer id="testimonials">
-        <h2 className="font-semibold text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
+        <h2 className="font-semibold text-xl highlight font-Anton md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
             Here&apos;s what recruiters had to say about us
         </h2>
-        <div className="my-5">
+        <div className="my-5 font-jetmono">
             <blockquote>
                 Freshers from Amrita are better than experienced people I have hired from outside.
                 8 out of 12 people in the security team are Amrita alumni.
@@ -33,7 +33,7 @@ const Testimonials = () => (
                 VMware
             </cite>
         </div>
-        <div className="my-5">
+        <div className="my-5 font-jetmono">
             <blockquote>
                 I can vouch for their superior technical skills, dedication and enthusiasm.
                 The training they receive is excellent.
@@ -43,7 +43,7 @@ const Testimonials = () => (
                 Cisco
             </cite>
         </div>
-        <div className="my-5">
+        <div className="my-5 font-jetmono">
             <blockquote>
                 I am very happy with their performance, especially level of understanding in cyber security
             </blockquote>

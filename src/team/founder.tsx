@@ -6,6 +6,8 @@ const FounderSection = () => (
     <section className="p-3">
         <div>
             <div className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">Founder & Chief Mentor</div>
+
+            <Image className="pb-4" alt="Vipin Pavithran" src="/vipinsir.png" width={350} height={400}/>
             <div className="text-lg md:text-xl lg:text-2xl opacity-80 font-semibold mb-2">
                 Th3_M3nt0r
             </div>
@@ -13,7 +15,7 @@ const FounderSection = () => (
                 Vipin Pavithran
             </div>
             <p className="text-sm opacity-70">
-                Vipin Pavithran is a cyber-security veteran and the founder of team bi0s, and takes deep passion in
+                Vipin Pavithran is a cyber-security veteran and the founder of team Bi0s-Hardware, and takes deep passion in
                 mentoring students at Amrita Vishwa Vidyapeetham. Prior to coming to Amritapuri, he has worked for
                 over 10 years in the software industry in the USA & UK. Being passionate about helping students to
                 develop their talent and to make them reach their potential, he founded the internationally recognised
@@ -25,17 +27,17 @@ const FounderSection = () => (
             <div className="mt-6">
                 <Link href="https://twitter.com/th3_m3nt0r" passHref>
                     <a className="mr-2">
-                        <Image alt="Twitter Profile" src="/icons/twitter.svg" width={30} height={30} />
+                        <Image className="icons" alt="Twitter Profile" src="/icons/twitter.svg" width={30} height={30} />
                     </a>
                 </Link>
                 <Link href="https://www.linkedin.com/in/vipin-pavithran/" passHref>
                     <a className="mr-2">
-                        <Image alt="LinkedIn Profile" src="/icons/linkedin.svg" width={30} height={30} />
+                        <Image className="icons" alt="LinkedIn Profile" src="/icons/linkedin.svg" width={30} height={30} />
                     </a>
                 </Link>
                 <Link href={`mailto:vipinp@am.amrita.edu`} passHref>
                     <a>
-                        <Image alt="Email Address" src="/icons/mail.svg" width={30} height={30} />
+                        <Image className="icons" alt="Email Address" src="/icons/mail.svg" width={30} height={30} />
                     </a>
                 </Link>
             </div>

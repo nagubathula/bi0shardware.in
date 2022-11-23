@@ -8,7 +8,7 @@ import {Global, ThemeContext} from "@emotion/react";
 const DARK_THEME = {
     isDarkTheme: true,
     text: '#fff',
-    background: '#111'
+    background: '#111927'
 };
 
 const LIGHT_THEME = {
@@ -54,7 +54,7 @@ const Layout = ({ children, title }) => {
                 <Global
                     styles={{
                         img: {
-                            filter: isDarkTheme ? 'invert(100%)' : 'invert(0%)'
+                            // filter: isDarkTheme ? 'invert(50%)' : 'invert(0%)'
                         },
                         body: {
                             color: isDarkTheme ? DARK_THEME.text : LIGHT_THEME.text,
@@ -63,6 +63,9 @@ const Layout = ({ children, title }) => {
                             backgroundImage: isDarkTheme ?
                                 `linear-gradient(90deg,hsla(0,0%,100%,.03) 1px,transparent 0),linear-gradient(180deg,hsla(0,0%,100%,.03) 1px,transparent 0)` :
                                 `linear-gradient(90deg,hsl(0deg 0% 0% / 5%) 1px,transparent 0),linear-gradient(180deg,hsl(0deg 0% 0% / 5%) 1px,transparent 0)`
+                        },
+                        ".icons": {
+                            filter: isDarkTheme ? 'invert(100%)' : 'invert(0%)'
                         }
                     }}
                 />

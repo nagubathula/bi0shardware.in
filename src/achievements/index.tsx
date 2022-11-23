@@ -11,24 +11,36 @@ const HeaderSection = styled('section')`
   align-items: center;
   padding: 5vh 1rem;
 `;
+const ResearchSection = styled('section')`
+  min-height: 25vmin;
+  display: flex;
+  align-items: center;
+  padding: 5vh 1rem;
+`;
 
 const AchievementsPage = () => {
 
     const [type, setType] = useState('ALL');
 
     return (
-        <Layout title="Achievements | team bi0s - India's No.1 Ranked CTF Team">
+        <Layout title="Achievements | team bi0s-Hardware">
             <HeaderSection>
                 <h1 className="font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
-                    Achievements
+                    Fields of Research
                 </h1>
+                
             </HeaderSection>
+            <ResearchSection>
+            <p className="text-3xl font-bold" >
+                    Our Fields of Research
+                </p>
+            </ResearchSection>
             <div className="flex flex-wrap mx-0">
-                <div className="w-100 lg:w-1/4 xl:w-1/5 px-2">
+                {/* <div className="w-100 lg:w-1/4 xl:w-1/5 px-2">
                     <div className="sticky top-0" style={{ paddingTop: '7.5vh' }}>
                         <TableOfContentsAchievements type={type} setType={setType} />
                     </div>
-                </div>
+                </div> */}
                 <div className="w-100 lg:w-3/4 xl:w-4/5 px-2">
                     <div style={{ height: '7.5vh' }} />
                     {ACHIEVEMENTS.filter((s) => (

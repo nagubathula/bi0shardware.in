@@ -6,9 +6,9 @@ import TableOfContents from "./toc";
 import MemberSection from "./section";
 
 import STUDENTS from '../data/students';
-import ADVISORS from '../data/advisors';
+import Cofounders from '../data/Cofounder';
 import ALUMNI from '../data/alumni';
-import STAFF from '../data/staff';
+import MENTORS from '../data/mentors';
 import MemberCard from "./card";
 import FounderSection from "./founder";
 
@@ -59,18 +59,18 @@ const TeamPage = () => {
                     {(selection === 'ALL') && (
                         <FounderSection />
                     )}
-                    {(selection === 'ALL' || selection === 'ADVISORS') && (
+                    {(selection === 'ALL' || selection === 'Cofounders') && (
                         <MemberSection
-                            id="advisors"
-                            title="Advisors"
-                            members={filterMembers(ADVISORS, true)}
+                            id="Cofounders"
+                            title="Cofounders"
+                            members={filterMembers(Cofounders, true)}
                         />
                     )}
-                    {(selection === 'ALL' || selection === 'STAFF') && (
+                    {(selection === 'ALL' || selection === 'MENTORS') && (
                         <MemberSection
-                            id="staff"
-                            title="Staff Mentors"
-                            members={filterMembers(STAFF)}
+                            id="mentors"
+                            title="Mentors"
+                            members={filterMembers(MENTORS)}
                         />
                     )}
                     {(selection === 'ALL' || selection === 'STUDENTS') && (

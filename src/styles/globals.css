@@ -1,15 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@700&family=Teko:wght@400;500&display=swap'); 
 html, body {
   padding: 0;
   margin: 0;
   font-size: 16px;
-  font-family: 'Fira Code', monospace;
+  font-family: 'JetBrains', monospace;
   transition: 0.25s background ease-in-out;
-}
 
+}
+.font-Anton{
+  font-family: 'Anton';
+  letter-spacing: 1.2px;
+}
 .w-100 {
   width: 100%;
 }
-
+.font-jetmono{
+  font-family: 'JetBrains Mono', monospace;
+}
 .container {
   width: 1200px!important;
   max-width: 100%!important;
@@ -19,12 +27,17 @@ html, body {
   display: flex;
   justify-content: center;
 }
-
+.logo{
+  color: darkgrey;
+}
 .content-shrinker {
   display: flex;
   justify-content: start;
 }
-
+.highlight{
+  text-shadow: rgb(255 215 77 / 60%) -1px -1px 6px, rgb(124 127 255 / 60%) 1px 1px 6px;
+  overflow-wrap: break-word;
+}
 .content-container *, .content-shrinker * {
   max-width: 100%!important;
 }
@@ -46,4 +59,13 @@ html, body {
 
 ::-webkit-scrollbar-thumb {
   background-color: hsla(0,0%,55%,.5);
+}
+::selection {
+  background: #b4ff39;
+  color: #170f1e;
+}
+.shadow:hover{
+    text-shadow: rgb(127 191 0 /1) -1px -1px 6px, rgb(124 127 255 / 60%) 1px 1px 6px;
+    overflow-wrap: break-word;
+  
 }
