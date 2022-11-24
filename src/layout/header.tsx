@@ -73,12 +73,12 @@ const MENU_ITEMS = [
         href: "/members"
     },
     {
-        label: "Achievements",
+        label: "Research",
         href: "/achievements"
     },
     {
-        label: "Blog",
-        href: "https://blog.bi0s.in"
+        label: "Contact",
+        href: "mailto:bi0shardware@am.amrita.edu"
     }
 ]
 
