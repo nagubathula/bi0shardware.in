@@ -19,11 +19,11 @@ const FIELDS = [
     icon: "/icons/automotive.svg",
   },
   {
-    name: "ICS / SCADA",
+    name: "OTT",
     icon: "/icons/scada.svg",
   },
   {
-    name: "Microarchitecture Analysis",
+    name: "Micro-Architectural Attacks",
     icon: "/icons/micro.svg",
   },
 ];
