@@ -118,7 +118,7 @@ const students = [
         // "username": "",
         "firstname": "Archit",
         "lastname": "Kak",
-        "category": "Co-Ordinator",
+        "category": "Junior Researcher",
         "team": "Hardware",
         "year": 3,
         // "email": ""

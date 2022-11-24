@@ -13,12 +13,12 @@ const Footer = () => (
                     <Image className="cursor-pointer filter-none" alt="CTFTime Profile" src="/ctftime.svg" width={90} height={45} />
                 </a>
             </Link> */}
-            <Link href="mailto:amritabi0s1@gmail.com" passHref>
+            <Link href="mailto:contact@bi0shardware.com" passHref>
                 <a className="mr-4">
                     <Image className="icons" alt="Email Address" src="/icons/mail.svg" width={24} height={24} />
                 </a>
             </Link>
-            <Link href="https://twitter.com/teambi0s" passHref>
+            <Link href="https://twitter.com/bi0sHardware" passHref>
                 <a className="mr-4">
                     <Image className="icons" alt="Twitter" src="/icons/twitter.svg" width={22} height={22} />
                 </a>

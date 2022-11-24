@@ -78,7 +78,7 @@ const MENU_ITEMS = [
     },
     {
         label: "Contact",
-        href: "mailto:bi0shardware@am.amrita.edu"
+        href: "mailto:contact@bi0shardware.com"
     }
 ]
 

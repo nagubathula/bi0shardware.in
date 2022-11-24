@@ -15,7 +15,7 @@ const AchievementCardSection = styled('div')`
 const AchievementCard = ({ text, infoText = null, date = null, links = []}) => (
     <AchievementCardSection className="py-5 border-dashed border-opacity-60 border-b-2">
         <div className="flex items-center w-100 mb-6" style={{display:"flex", alignItems:"start", justifyContent:"center"}}>
-                <div className="rounded-4 shadow-strong-4" ><Image alt="achievements" src="/achievements/test.jpg" width={450} height={300} /></div>
+                {/* <div className="rounded-4 shadow-strong-4" ><Image alt="achievements" src="/achievements/test.jpg" width={450} height={300} /></div> */}
             </div>
         <div className="flex items-center opacity-80 mb-5">
         

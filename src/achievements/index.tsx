@@ -24,16 +24,16 @@ const AchievementsPage = () => {
 
     return (
         <Layout title="Achievements | team bi0s-Hardware">
-            <HeaderSection>
+            {/* <HeaderSection>
                 <h1 className="font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
                     Fields of Research
                 </h1>
                 
-            </HeaderSection>
+            </HeaderSection> */}
             <ResearchSection>
-            <p className="text-3xl font-bold" >
+            <h1 className=" text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold" >
                     Our Fields of Research
-                </p>
+                </h1>
             </ResearchSection>
             <div className="flex flex-wrap mx-0">
                 {/* <div className="w-100 lg:w-1/4 xl:w-1/5 px-2">
@@ -42,7 +42,7 @@ const AchievementsPage = () => {
                     </div>
                 </div> */}
                 <div className="w-100 lg:w-3/4 xl:w-4/5 px-2">
-                    <div style={{ height: '7.5vh' }} />
+                    {/* <div style={{ height: '7.5vh' }} /> */}
                     {ACHIEVEMENTS.filter((s) => (
                         type == 'ALL' || s.type == type
                     )).map((s, index) => (
