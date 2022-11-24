@@ -6,7 +6,7 @@ const alumni = [
         "category": "Cryptography",
         "team": "Hardware",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:'/images/team/ashwinnambiar.png'
     },
@@ -17,7 +17,7 @@ const alumni = [
         "category": "Cryptography",
         "team": "Hardware",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:'/images/team/season.png'
     },
@@ -28,7 +28,7 @@ const alumni = [
         "category": "Cryptography",
         "team": "Hardware Security",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:"/images/team/hariprasad.png"
     },
@@ -39,7 +39,7 @@ const alumni = [
         "category": "Embedded Devlopment",
         "team": "Hardware",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:'/images/team/hari.png'
     },
@@ -50,7 +50,7 @@ const alumni = [
         "category": "Automotive",
         "team": "Hardware",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:'/images/team/karthiklade.png'
     },
@@ -61,7 +61,7 @@ const alumni = [
         "category": "AI/ML",
         "team": "Hardware",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:'/images/team/aathira.png'
     },
@@ -72,7 +72,7 @@ const alumni = [
         "category": "Embedded Devlopment",
         "team": "Hardware",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:"/images/team/arya.png"
     },
@@ -83,7 +83,7 @@ const alumni = [
         "category": "Embedded Devlopment",
         "team": "Hardware",
         "batch": 2022,
-        "affiliation": "VMware",
+        // "affiliation": "VMware",
         "email": "",
         img:"/images/team/amitha.png"
     },
@@ -93,7 +93,7 @@ const alumni = [
         "lastname": "K M",
         "category": "Sutomotive",
         "team": "Hardware",
-        "batch": 2022,
+        // "batch": 2022,
         "affiliation": "VMware",
         "email": "",
         img:"/images/team/keerthana.png"
