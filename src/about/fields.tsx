@@ -49,7 +49,7 @@ const FieldsofResearch = () => (
   <HeaderSection>
     <div className="grid ">
       <div>
-        <h1 className="font-bold font-Anton highlight text-center text-3xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">
+        <h1 className="font-bold font-jetbrains highlight text-center text-3xl md:text-3xl lg:text-4xl xl:text-5xl mb-6">
           Our Fields of Research{" "}
         </h1>
       </div>

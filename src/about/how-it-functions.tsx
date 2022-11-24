@@ -7,7 +7,7 @@ const HowItFunctionsContainer = styled.section`
 
 const HowItFunctions = () => (
     <HowItFunctionsContainer>
-        <h2 className="font-semibold highlight font-Anton text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
+        <h2 className="font-semibold highlight font-jetbrains text-xl md:text-2xl mb-4 lg:text-3xl xl:text-4xl">
             How we function?
         </h2>
         <p className="font-jetmono">
