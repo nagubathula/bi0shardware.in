@@ -31,10 +31,10 @@ const LandingHeader = () => (
     <div className="grid items-center text-center" style={{ maxWidth: "100%" }}>
       <div>
         <h1 className="font-bold text-3xl highlight md:text-3xl lg:text-4xl xl:text-5xl mb-6">
-          India&apos;s No.1 Ranked CTF Team &{" "}
-          <div className="inline md:inline-block">
+         bi0s-Hardware{" "}
+          {/* <div className="inline md:inline-block">
             Cyber Security Research Club
-          </div>
+          </div> */}
         </h1>
       </div>
       <div>
@@ -49,7 +49,7 @@ const LandingHeader = () => (
       </div>
       <div className="py-6 block mx-0 gap-3">
           <div className="py-3">
-            <a href="https://join.bi0s.in/">Join Us</a>
+            <a href="https://wired.ctf.eng.run/">Join Us</a>
           </div>
           {/* <div className="py-3">
                     <a href="https://rzp.io/l/freshers-workshop">

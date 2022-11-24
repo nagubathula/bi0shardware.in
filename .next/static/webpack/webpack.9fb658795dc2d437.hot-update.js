@@ -11,21 +11,8 @@ self["webpackHotUpdate_N_E"]("webpack",{},
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ /* webpack/runtime/getFullHash */
 /******/ !function() {
-/******/ 	__webpack_require__.h = function() { return "ba26afd2c78720a9"; }
+/******/ 	__webpack_require__.h = function() { return "207d3bec28ae1620"; }
 /******/ }();
-/******/ 
-/******/ /* webpack/runtime/compat */
-/******/ 
-/******/ 
-/******/ // noop fns to prevent runtime errors during initialization
-/******/ if (typeof self !== "undefined") {
-/******/ 	self.$RefreshReg$ = function () {};
-/******/ 	self.$RefreshSig$ = function () {
-/******/ 		return function (type) {
-/******/ 			return type;
-/******/ 		};
-/******/ 	};
-/******/ }
 /******/ 
 /******/ }
 );

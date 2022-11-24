@@ -8,12 +8,12 @@ const Achievements = [
             Embedded systems include a variety of hardware and software components, which perform specific functions in host systems, for example, satellites, washing machines, robots, hand-held telephones and automobiles.
         </>,
         date: 'November 22, 2021',
-        links: [
-            {
-                text: 'Learn More',
-                href: 'https://cve.report/CVE-2021-23718'
-            },
-        ]
+        // links: [
+        //     {
+        //         text: 'Learn More',
+        //         href: 'https://cve.report/CVE-2021-23718'
+        //     },
+        // ]
     },
     {
         type: 'CTF',
@@ -22,12 +22,12 @@ const Achievements = [
            Firmware is the code that runs on an embedded device.In embedded systems, manufacturers usually go for functionality over security to decrease manufacturing cost.We analyze the firmware, to find various security vulnerabilities present.
         </>,
         date: 'September 16, 2021',
-        links: [
-            {
-                text: 'View Final Scoreboard',
-                href: 'https://ctftime.org/event/1335'
-            }
-        ]
+        // links: [
+        //     {
+        //         text: 'View Final Scoreboard',
+        //         href: 'https://ctftime.org/event/1335'
+        //     }
+        // ]
     },
     {
         type: 'CVE',
@@ -36,12 +36,12 @@ const Achievements = [
             As everything is getting mobile and wireless, the urgency for effective wireless threat protection is on everyone's watch, as wireless networks are developed rapidly making them vulnerable in a myriad of ways.
         </>,
         date: 'September 08, 2021',
-        links: [
-            {
-                text: 'View CVE Report',
-                href: 'https://www.cve.org/CVERecord?id=CVE-2021-23404'
-            }
-        ]
+        // links: [
+        //     {
+        //         text: 'View CVE Report',
+        //         href: 'https://www.cve.org/CVERecord?id=CVE-2021-23404'
+        //     }
+        // ]
     },
     {
         type: 'GSoC',
@@ -50,12 +50,12 @@ const Achievements = [
             With consumers expecting new complex features for their ride, it's getting difficult for engineers to make systems that go hand in hand with security and required technicalities. We look into the extremely complex systems of vehicle security and make sure that it keeps up with the new features.
         </>,
         date: 'May 2021',
-        links: [
-            {
-                text: 'View GSoC Profile',
-                href: 'https://summerofcode.withgoogle.com/archive/2021/projects/4855908315693056'
-            }
-        ]
+        // links: [
+        //     {
+        //         text: 'View GSoC Profile',
+        //         href: 'https://summerofcode.withgoogle.com/archive/2021/projects/4855908315693056'
+        //     }
+        // ]
     },
     {
         type: 'GSoC',
@@ -64,12 +64,12 @@ const Achievements = [
             SCADA and Industrial Control Systems systems have been relatively excluded from security testing by the security industry. This has made them vulnerable and leading to some successful intrusions that have resulted in malicious attackers obtaining administrative access to core systems.
         </>,
         date: 'May 2021',
-        links: [
-            {
-                text: 'View GSoC Profile',
-                href: 'https://summerofcode.withgoogle.com/archive/2021/projects/6125873907892224'
-            }
-        ]
+        // links: [
+        //     {
+        //         text: 'View GSoC Profile',
+        //         href: 'https://summerofcode.withgoogle.com/archive/2021/projects/6125873907892224'
+        //     }
+        // ]
     },
     {
         type: 'GSoC',

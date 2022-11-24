@@ -23,12 +23,12 @@ const Footer = () => (
                     <Image className="icons" alt="Twitter" src="/icons/twitter.svg" width={22} height={22} />
                 </a>
             </Link>
-            <Link href="https://github.com/teambi0s" passHref>
+            <Link href="https://github.com/bi0shardware" passHref>
                 <a className="mr-4">
                     <Image className="icons" alt="GitHub" src="/icons/github.svg" width={22} height={22} />
                 </a>
             </Link>
-            <Link href="https://linkedin.com/company/teambi0s" passHref>
+            <Link href="https://linkedin.com/company/bi0sHardware" passHref>
                 <a>
                     <Image className="icons"alt="LinkedIn" src="/icons/linkedin.svg" width={24} height={24} />
                 </a>
