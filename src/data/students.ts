@@ -74,7 +74,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
-        "img":"/images/team/"
+        "img":"/images/team/hridul.png"
     },
     
     {
