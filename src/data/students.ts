@@ -52,7 +52,7 @@ const students = [
         "team": "Hardware",
         "year": 4,
         // "email": ""
-        "img": "/images/team/"
+        "img": "/images/team/ranit.png"
     },
     {
         "campus": "Amritapuri", 
@@ -144,7 +144,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
-        "img": "/images/team/",
+        "img": "/images/team/siddharth.png",
     },
     {
         "campus": "Amritapuri", 
