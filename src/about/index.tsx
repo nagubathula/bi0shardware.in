@@ -18,7 +18,7 @@ const AboutPage = () => (
     <Layout title="About team bi0s - India's No.1 CTF Team & Cyber Security Research Club">
         <HeaderSection>
             <h1 className="font-jetbrains highlight font-bold text-3xl md:text-8xl lg:text-5xl xl:text-6xl">
-                About BI0S-HARDWARE
+                About bi0s-hardware
             </h1>
         </HeaderSection>
         <div className="p-2">
