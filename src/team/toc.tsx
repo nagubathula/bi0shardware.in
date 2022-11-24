@@ -32,10 +32,10 @@ const TableOfContents = ({
                 {type ==='ALL' && <span>{'> '}</span>}
                 <button onClick={() => setType('ALL')}>All Members</button>
             </li>
-            <li className="mb-2 shadow shadow">
+            {/* <li className="mb-2 shadow shadow">
                 {type ==='ADVISORS' && <span>{'> '}</span>}
                 <button onClick={() => setType('ADVISORS')}>Team Advisors</button>
-            </li>
+            </li> */}
             {/* <li className="mb-2 shadow">
                 {type ==='STAFF' && <span>{'> '}</span>}
                 <button onClick={() => setType('STAFF')}>Staff Mentors</button>
@@ -50,7 +50,7 @@ const TableOfContents = ({
             </li>
         </ul>
     </div>
-    <div className="mt-8 mb-6">
+    {/* <div className="mt-8 mb-6">
         <div className="font-semibold mb-2 ">
             By Team
         </div>
@@ -95,7 +95,7 @@ const TableOfContents = ({
                 <button onClick={() => setCampus('COIMBATORE')}>Coimbatore</button>
             </li>
         </ul>
-    </div>
+    </div> */}
 </div>
 );
 
