@@ -19,31 +19,35 @@ const StyledImage = styled(Image)`
 const ASSETS = [
     {
         name: 'light-logo',
-        path: '/branding/light-logo.png',
+        path: '/branding/whitelogo.png',
         isLight: true,
     },
     {
         name: 'dark-logo',
-        path: '/branding/dark-logo.png',
+        path: '/branding/blacklogo.png',
     },
-    {
-        name: 'animated-logo',
-        path: '/branding/logo-animated.gif',
-        isLight: true,
-    },
+    // {
+    //     name: 'animated-logo',
+    //     path: '/branding/logo-animated.gif',
+    //     isLight: true,
+    // },
     {
         name: 'favicon',
         path: '/branding/favicon.png',
     },
     {
-        name: 'logo-on-black',
-        path: '/branding/logo-on-black.png',
-        isLight: true
+        name: 'light-logo-black-outline',
+        path: '/branding/biosblackoutline.png',
     },
     {
-        name: 'logo-on-white',
-        path: '/branding/logo-on-white.png',
-    }
+        name: 'black-logo-white-outline',
+        path: '/branding/bioswhite.png',
+        isLight: true
+    },
+    // {
+    //     name: 'logo-on-white',
+    //     path: '/branding/logo-on-white.png',
+    // }
 ]
 
 const BrandingPage = () => (

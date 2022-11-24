@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/achievements": [
+    "/branding": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/achievements.js"
+      "static/chunks/pages/branding.js"
     ]
   },
   "ampFirstPages": []
