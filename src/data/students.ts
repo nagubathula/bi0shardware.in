@@ -8,7 +8,7 @@ const students = [
         "team": "Hardware",
         "year": 4,
         // "email": ""
-        "img": "/images/bioshardwarew.png",
+        "img": "/images/team/aswinc.png",
     },
     {
         "campus": "Amritapuri", 
@@ -19,6 +19,7 @@ const students = [
         "team": "Hardware",
         "year": 4,
         // "email": ""
+        "img": "/images/team/athul.png",
     },
     {
         "campus": "Amritapuri", 
@@ -29,6 +30,7 @@ const students = [
         "team": "Hardware",
         "year": 4,
         // "email": ""
+        "img": "/images/team/"
     },
     {
         "campus": "Amritapuri", 
@@ -39,6 +41,7 @@ const students = [
         "team": "Hardware",
         "year": 4,
         // "email": ""
+        "img": "/images/team/",
     },
     {
         "campus": "Amritapuri", 
@@ -49,6 +52,7 @@ const students = [
         "team": "Hardware",
         "year": 4,
         // "email": ""
+        "img": "/images/team/"
     },
     {
         "campus": "Amritapuri", 
@@ -59,6 +63,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/",
     },
     {
         "campus": "Amritapuri", 
@@ -69,6 +74,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/"
     },
     {
         "campus": "Amritapuri", 
@@ -79,6 +85,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/"
     },
     {
         "campus": "Amritapuri", 
@@ -89,6 +96,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/ghanshyam.png",
     },
     {
         "campus": "Amritapuri", 
@@ -99,6 +107,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/"
     },
     {
         "campus": "Amritapuri", 
@@ -109,6 +118,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/kiran.png",
     },
     {
         "campus": "Amritapuri", 
@@ -119,7 +129,10 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/gauthamjb.png",
     },
+
+
     {
         "campus": "Amritapuri", 
         // "username": "",
@@ -129,6 +142,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
+        "img":"/images/team/archit.png",
     },
     {
         "campus": "Amritapuri", 
@@ -139,6 +153,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img": "/images/team/satysai.png",
     },
     {
         "campus": "Amritapuri", 
@@ -149,6 +164,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img": "/images/team/",
     },
     {
         "campus": "Amritapuri", 
@@ -159,6 +175,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img":"/images/team/govind.png",
     },
     {
         "campus": "Amritapuri", 
@@ -169,6 +186,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img":"/images/team/karthik.png",
     },
     {
         "campus": "Amritapuri", 
@@ -179,16 +197,18 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img":"/images/team/rajask.png"
     },
     {
         "campus": "Amritapuri", 
         // "username": "",
-        "firstname": "Raja",
-        "lastname": "S K",
+        "firstname": "Nived",
+        "lastname": "P V",
         "category": "Hardware Security",
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img":"/images/team/nived.png"
     },
     {
         "campus": "Amritapuri", 
@@ -199,6 +219,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img":"/images/team/drupad.png",
     },
     {
         "campus": "Amritapuri", 
@@ -209,6 +230,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img": "/images/team/avanthika.png",
     },
     {
         "campus": "Amritapuri", 
@@ -219,6 +241,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img":"/images/team/swetha.png",
     },
     {
         "campus": "Amritapuri", 
@@ -229,6 +252,7 @@ const students = [
         "team": "Hardware",
         "year": 2,
         // "email": ""
+        "img":"/images/team/roopa.png",
     },
     
     

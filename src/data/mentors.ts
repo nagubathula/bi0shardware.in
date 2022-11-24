@@ -25,7 +25,8 @@ const mentors = [
         firstname: 'Season',
         lastname: 'Cherian',
         category: 'Hardware Security',
-        team: 'Hardware'
+        team: 'Hardware',
+        img:'/images/team/season.png'
     },
     // {
     //     campus: "Amritapuri",
@@ -39,7 +40,8 @@ const mentors = [
         firstname: 'Vivek',
         lastname: 'N J',
         category: 'Firmware Analysis',
-        team: 'Hardware'
+        team: 'Hardware',
+        img:'/images/team/viveknj.png'
     },
 ];
 

@@ -3,16 +3,15 @@ import Image from "next/image";
 import React from "react";
 import { ClassNames } from "@emotion/react";
 
-const MemberCard = ({ firstname, lastname, username = null, category = null, affiliation = null, linkedin = null, twitter = null, email = null }) => (
+const MemberCard = ({ firstname, lastname, username = null, category = null, affiliation = null, linkedin = null, twitter = null, email = null, img }) => (
 
-    <div className="w-100 sm:w-1/2 lg:w-1/3 p-3">
-        <Image className="w-100 rounded-xl" alt="Person Image" src="/test.jpg" width={220} height={180}/>
+    <div className="grid flex-wrap w-100 sm:w-1/2 lg:w-1/3 p-3 items-center justify-items-center">
+        <Image className=" w-100 rounded-xl mb-4" alt="Person Image" src={img} width={256} height={256}/>
         {/* {username && <div className="text-2xl text-center ">{username}</div>} */}
         <div className={`mb-1 opacity-90 uppercase text-center ${!(username?.length > 0) ? 'text-xl' : null}`}>
             <span className="font-semibold ">{firstname}</span>
             {' '}{lastname}
         </div>
-
         {category && <div className="text-sm opacity-80 text-center">{category}</div>}
         {affiliation && <div className="text-sm opacity-80 text-center">{affiliation}</div>}
         {/* <div className="flex items-center opacity-75 mt-3">

@@ -7,7 +7,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:'/images/team/ashwinnambiar.png'
     },
     {
         "campus": "Amritapuri",
@@ -17,7 +18,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:'/images/team/season.png'
     },
     {
         "campus": "Amritapuri",
@@ -27,7 +29,8 @@ const alumni = [
         "team": "Hardware Security",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:"/images/team/hariprasad.png"
     },
     {
         "campus": "Amritapuri",
@@ -37,7 +40,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:'/images/team/hari.png'
     },
     {
         "campus": "Amritapuri",
@@ -47,7 +51,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:'/images/team/karthiklade.png'
     },
     {
         "campus": "Amritapuri",
@@ -57,7 +62,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:'/images/team/aathira.png'
     },
     {
         "campus": "Amritapuri",
@@ -67,7 +73,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:"/images/team/arya.png"
     },
     {
         "campus": "Amritapuri",
@@ -77,7 +84,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:"/images/team/amitha.png"
     },
     {
         "campus": "Amritapuri",
@@ -87,7 +95,8 @@ const alumni = [
         "team": "Hardware",
         "batch": 2022,
         "affiliation": "VMware",
-        "email": ""
+        "email": "",
+        img:"/images/team/keerthana.png"
     },
 ]
 
