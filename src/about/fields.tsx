@@ -10,22 +10,26 @@ const FIELDS = [
     name: "Firmware Analysis",
     icon: "/icons/firmware.svg",
   },
+ 
+
+ 
   {
-    name: "Wireless Security",
-    icon: "/icons/wireless.svg",
+    name: "OT Security",
+    icon: "/icons/otsecurity.svg",
   },
   {
     name: "Automotive Security",
     icon: "/icons/automotive.svg",
   },
   {
-    name: "OT Security",
-    icon: "/icons/otsecurity.svg",
+    name: "Wireless Security",
+    icon: "/icons/wireless.svg",
   },
   {
     name: "Micro-Architectural Attacks",
     icon: "/icons/microarch1.svg",
   },
+
 ];
 const Fieldscardsection = styled("div")`
   p {
@@ -54,12 +58,12 @@ const FieldsofResearch = () => (
         </h1>
       </div>
       <Fieldscardsection
-        className="grid grid-rows-2 grid-flow-col gap-4"
-        style={{ justifyContent: "center" }}
+        className="grid grid-rows-2 grid-flow-col gap-12"
+        style={{ justifyContent: "start" }}
       >
         {FIELDS.map((f) => (
           <div
-            className="w-full py-8 mx-4 my-4 text-center"
+            className="w-full px-6 py-6 mx-4 my-4 text-center"
             style={{ justifyContent: "start" }}
             key={f.name}
           >

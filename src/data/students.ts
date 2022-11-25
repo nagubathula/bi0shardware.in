@@ -26,7 +26,7 @@ const students = [
         // "username": "",
         "firstname": "Indraraj",
         "lastname": "Biswas",
-        "category": "Wireless",
+        "category": "Wireless Security",
         "team": "Hardware",
         "year": 4,
         // "email": ""
@@ -105,7 +105,7 @@ const students = [
         // "username": "",
         "firstname": "Gautham",
         "lastname": "J B",
-        "category": "Wireless",
+        "category": "Wireless Security",
         "team": "Hardware",
         "year": 3,
         // "email": ""
@@ -217,7 +217,7 @@ const students = [
         // "username": "",
         "firstname": "Swetha",
         "lastname": "Ajith",
-        "category": "Wireless",
+        "category": "Wireless Security",
         "team": "Hardware",
         "year": 2,
         // "email": ""
@@ -228,7 +228,7 @@ const students = [
         // "username": "",
         "firstname": "Roopa",
         "lastname": "Ravali",
-        "category": "Wireless",
+        "category": "Wireless Security",
         "team": "Hardware",
         "year": 2,
         // "email": ""
