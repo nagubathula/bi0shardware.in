@@ -59,7 +59,7 @@ const Achievements = [
     },
     {
         type: 'GSoC',
-        infoText: 'ICS / SCADA',
+        infoText: 'O T Security',
         text: <>
             SCADA and Industrial Control Systems systems have been relatively excluded from security testing by the security industry. This has made them vulnerable and leading to some successful intrusions that have resulted in malicious attackers obtaining administrative access to core systems.
         </>,
@@ -73,7 +73,7 @@ const Achievements = [
     },
     {
         type: 'GSoC',
-        infoText: 'Microarchitecture Analysis',
+        infoText: 'Micro-Architectural Attacks',
         text: <>
             A side-channel attack is a security exploit that aims to gather information from or influence the program execution of a system by measuring or exploiting indirect effects of the system or its hardware -- rather than targeting the program or its code directly.
         </>,

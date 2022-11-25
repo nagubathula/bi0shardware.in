@@ -63,7 +63,7 @@ const students = [
         "team": "Hardware",
         "year": 3,
         // "email": ""
-        "img":"/images/team/sreesankar.png",
+        "img":"/images/team/sreesankar1.png",
     },
     {
         "campus": "Amritapuri", 
@@ -94,7 +94,7 @@ const students = [
         // "username": "",
         "firstname": "Kiran",
         "lastname": "S P",
-        "category": "Wireless",
+        "category": "Automotive Security",
         "team": "Hardware",
         "year": 3,
         // "email": ""
@@ -118,7 +118,7 @@ const students = [
         // "username": "",
         "firstname": "Archit",
         "lastname": "Kak",
-        "category": "Junior Research Analyst",
+        "category": "Automotive",
         "team": "Hardware",
         "year": 3,
         // "email": ""
@@ -195,7 +195,7 @@ const students = [
         // "username": "",
         "firstname": "Drupad",
         "lastname": "Dev",
-        "category": "Automotive Security",
+        "category": "Automotive Security Security",
         "team": "Hardware",
         "year": 2,
         // "email": ""

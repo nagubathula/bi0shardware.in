@@ -2,14 +2,6 @@ import React from "react";
 
 const TEAMS = [
     {
-        name: 'bi0s CTF',
-        description: `
-            The bi0s CTF team participates in various global CTFs throughout the year, and organizes various 
-            CTFs including the InCTFs. It has members specializing in Web Security, Reverse Engineering, Binary Exploitation, 
-            Cryptography, Forensics, Android etc.
-        `,
-    },
-    {
         name: 'bi0s Hardware',
         description: `
             The bi0s Hardware specializes in hardware cyber security. Members of this team have expertise in
@@ -17,6 +9,15 @@ const TEAMS = [
             Side Channel Analysis etc.
         `,
     },
+    {
+        name: 'bi0s CTF',
+        description: `
+            The bi0s CTF team participates in various global CTFs throughout the year, and organizes various 
+            CTFs including the InCTFs. It has members specializing in Web Security, Reverse Engineering, Binary Exploitation, 
+            Cryptography, Forensics, Android etc.
+        `,
+    },
+    
     {
         name: 'bi0s Pentest',
         description: `

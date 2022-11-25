@@ -2,7 +2,7 @@ const Cofounders =  [
     {
         firstname: 'Ashwin',
         lastname: 'Nambiar',
-        affiliation: 'phd at Purdue University',
+        affiliation: 'Ph.D. at Purdue University',
         img:'/images/team/ashwinnambiar.png'
     },
     {
@@ -14,7 +14,7 @@ const Cofounders =  [
     {
         firstname: 'Hariprasad',
         lastname: 'K V',
-        affiliation: 'Siemens',
+        affiliation: 'Senior Researcher at Payatu',
         img:'/images/team/hariprasad.png'
     },   
    

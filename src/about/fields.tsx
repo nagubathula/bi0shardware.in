@@ -19,12 +19,12 @@ const FIELDS = [
     icon: "/icons/automotive.svg",
   },
   {
-    name: "OTT",
-    icon: "/icons/scada.svg",
+    name: "OT Security",
+    icon: "/icons/otsecurity.svg",
   },
   {
     name: "Micro-Architectural Attacks",
-    icon: "/icons/micro.svg",
+    icon: "/icons/microarch1.svg",
   },
 ];
 const Fieldscardsection = styled("div")`
@@ -54,13 +54,13 @@ const FieldsofResearch = () => (
         </h1>
       </div>
       <Fieldscardsection
-        className="flex justify-between mx-0 my-4 "
+        className="grid grid-rows-2 grid-flow-col gap-4"
         style={{ justifyContent: "center" }}
       >
         {FIELDS.map((f) => (
           <div
             className="w-full py-8 mx-4 my-4 text-center"
-            style={{ justifyContent: "center" }}
+            style={{ justifyContent: "start" }}
             key={f.name}
           >
             <div>
@@ -75,7 +75,7 @@ const FieldsofResearch = () => (
             <div className="w-full text-md md:text-3xl lg:text-2xl mb-4">
               {f.name}
             </div>
-            {/* <p style={{ width: "350px", maxWidth: "100%" }}>{f.desc}</p> */}
+            {/* <p style={{ minwidth: "350px", maxWidth: "420px" }}>{f.desc}</p> */}
           </div>
         ))}
       </Fieldscardsection>

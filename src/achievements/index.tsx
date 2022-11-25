@@ -31,7 +31,7 @@ const AchievementsPage = () => {
                 
             </HeaderSection> */}
             <ResearchSection>
-            <h1 className=" text-4xl md:text-4xl lg:text-5xl xl:text-6xl font-bold" >
+            <h1 className=" font-jetbrains highlight font-bold text-3xl md:text-8xl lg:text-5xl xl:text-6xl" >
                     Our Fields of Research
                 </h1>
             </ResearchSection>
