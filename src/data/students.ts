@@ -4,7 +4,7 @@ const students = [
         // "username": "",
         "firstname": "Aswin",
         "lastname": "C",
-        "category": "Firmware Reversing",
+        "category": "Firmware Analysis",
         "team": "Hardware",
         "year": 4,
         // "email": ""
@@ -15,7 +15,7 @@ const students = [
         // "username": "",
         "firstname": "Athul",
         "lastname": "Menon",
-        "category": "Firmware Reversing",
+        "category": "Firmware Analysis",
         "team": "Hardware",
         "year": 4,
         // "email": ""
@@ -94,7 +94,7 @@ const students = [
         // "username": "",
         "firstname": "Kiran",
         "lastname": "S P",
-        "category": "Automotive Security",
+        "category": "Wireless Security",
         "team": "Hardware",
         "year": 3,
         // "email": ""
@@ -118,7 +118,7 @@ const students = [
         // "username": "",
         "firstname": "Archit",
         "lastname": "Kak",
-        "category": "Automotive",
+        "category": "Automotive Security",
         "team": "Hardware",
         "year": 3,
         // "email": ""
@@ -151,7 +151,7 @@ const students = [
         // "username": "",
         "firstname": "Govind",
         "lastname": "A R",
-        "category": "Firmware Reversing",
+        "category": "Firmware Analysis",
         "team": "Hardware",
         "year": 2,
         // "email": ""
@@ -162,7 +162,7 @@ const students = [
         // "username": "",
         "firstname": "Karthik",
         "lastname": "G",
-        "category": "Firmware Reversing",
+        "category": "Firmware Analysis",
         "team": "Hardware",
         "year": 2,
         // "email": ""
@@ -195,7 +195,7 @@ const students = [
         // "username": "",
         "firstname": "Drupad",
         "lastname": "Dev",
-        "category": "Automotive Security Security",
+        "category": "Automotive Security",
         "team": "Hardware",
         "year": 2,
         // "email": ""
