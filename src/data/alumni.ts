@@ -93,8 +93,8 @@ const alumni = [
         "lastname": "K M",
         "category": "Automotive Security",
         "team": "Hardware",
-        // "batch": 2022,
-        "affiliation": "VMware",
+        "batch": 2022,
+        //"affiliation": "VMware",
         "email": "",
         img:"/images/team/keerthana.png"
     },
