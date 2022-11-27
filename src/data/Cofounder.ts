@@ -2,7 +2,7 @@ const Cofounders =  [
     {
         firstname: 'Ashwin',
         lastname: 'Nambiar',
-        affiliation: 'Ph.D. at Purdue University',
+        affiliation: 'PhD at Purdue University',
         img:'/images/team/ashwinnambiar.png'
     },
     {
