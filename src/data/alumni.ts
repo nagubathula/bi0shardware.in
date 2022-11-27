@@ -3,7 +3,7 @@ const alumni = [
         "campus": "Amritapuri",
         "firstname": "Ashwin",
         "lastname": "Nambiar",
-        "category": "Hardware Security, Microarchitectural Attacks",
+        "category": "Hardware Security <br/> Microarchitectural Attacks",
         "team": "Hardware",
         "batch": 2022,
         // "affiliation": "VMware",
