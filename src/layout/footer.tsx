@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => (
     <footer className="flex flex-wrap py-8">
         <div className="w-100 md:w-1/2 flex items-center text-center md:text-left justify-center md:justify-start p-2 text-sm opacity-80">
-            &copy; Team bi0s-hardware {new Date().getFullYear()}. All rights reserved.
+            &copy; Team bi0s Hardware {new Date().getFullYear()}. All rights reserved.
         </div>
         <div className="w-100 md:w-1/2 p-2 flex justify-center md:justify-end items-center">
             {/* <Link passHref href="https://ctftime.org/team/662">
