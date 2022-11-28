@@ -49,7 +49,7 @@ const LandingHeader = () => (
       </div>
       <div className="py-6 block mx-0 gap-3">
           <div className="py-3">
-            <a href="https://wired.ctf.eng.run/">Join Us</a>
+            <a href="mailto:contact@bi0shardware.com">Contact Us</a>
           </div>
           {/* <div className="py-3">
                     <a href="https://rzp.io/l/freshers-workshop">
