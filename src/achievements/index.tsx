@@ -23,7 +23,7 @@ const AchievementsPage = () => {
     const [type, setType] = useState('ALL');
 
     return (
-        <Layout title="Achievements | team bi0s-Hardware">
+        <Layout title="Achievements | team bi0s Hardware">
             {/* <HeaderSection>
                 <h1 className="font-bold text-4xl md:text-4xl lg:text-5xl xl:text-6xl">
                     Fields of Research

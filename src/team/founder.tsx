@@ -15,7 +15,7 @@ const FounderSection = () => (
                 Vipin Pavithran
             </div>
             <p className="text-sm opacity-70">
-                Vipin Pavithran is a cyber-security veteran and the founder of team Bi0s-Hardware, and takes deep passion in
+                Vipin Pavithran is a cyber-security veteran and takes deep passion in
                 mentoring students at Amrita Vishwa Vidyapeetham. Prior to coming to Amritapuri, he has worked for
                 over 10 years in the software industry in the USA & UK. Being passionate about helping students to
                 develop their talent and to make them reach their potential, he founded the internationally recognised
