@@ -23,6 +23,6 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/layout/Topbanner.jsx", "src/layout/Topbanner.jsx", "src/layout/Topbanner.jsx"  ],
   "exclude": ["node_modules"]
 }

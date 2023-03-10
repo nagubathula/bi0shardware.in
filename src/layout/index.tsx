@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, {useEffect, useLayoutEffect, useState} from "react";
-
+import Topbanner from "./Topbanner";
 import Header from "./header";
 import Footer from "./footer";
 import {Global, ThemeContext} from "@emotion/react";
@@ -46,7 +46,9 @@ const Layout = ({ children, title }) => {
 
     return (
         <React.Fragment>
+            
             <Head>
+                
                 <title>{title}</title>
                 <link rel="icon" href="/favicon.png"/>
             </Head>
@@ -69,6 +71,7 @@ const Layout = ({ children, title }) => {
                         }
                     }}
                 />
+                <Topbanner/>
                 <Header isDarkTheme={isDarkTheme} setDarkTheme={setDarkTheme} />
                 <div className="flex justify-center">
                     <div style={{width: '1100px', maxWidth: '100%'}}>

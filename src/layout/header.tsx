@@ -3,6 +3,7 @@ import Link from "next/link";
 import styled from "@emotion/styled";
 import Image from "next/image";
 
+
 const HeaderBar = styled.header`
   background: ${({ theme }) => theme.background};
   color: ${({ theme }) => theme.text};
@@ -95,9 +96,13 @@ const Header = ({ isDarkTheme, setDarkTheme = (_b) => {} }) => {
     const [isOpen, setOpen] = useState(false);
 
     return (
+        
         <React.Fragment>
+            
             <HeaderBar>
+                
                 <div className="flex justify-center">
+                    
                     <div style={{ width: '1100px', maxWidth: '100%' }}>
                         <div className="flex flex-wrap mx-0">
                             <div className="w-1/2 lg:w-1/4 flex items-center px-2">
