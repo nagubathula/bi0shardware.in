@@ -63,7 +63,7 @@ const alumni = [
         "batch": 2022,
         // "affiliation": "VMware",
         "email": "",
-        img:'/images/team/aathira.png'
+        img:'/images/team/aathira.png.png'
     },
     {
         "campus": "Amritapuri",

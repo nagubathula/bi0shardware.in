@@ -135,17 +135,17 @@ const students = [
         // "email": ""
         "img": "/images/team/satysai.png",
     },
-    {
-        "campus": "Amritapuri", 
+    //{
+        //"campus": "Amritapuri", 
         // "username": "",
-        "firstname": "Siddharth",
-        "lastname": "Reddy",
-        "category": "Web Security",
-        "team": "Hardware",
-        "year": 2,
+        //"firstname": "Siddharth",
+        //"lastname": "Reddy",
+        //"category": "Web Security",
+        //"team": "Hardware",
+        //"year": 2,
         // "email": ""
-        "img": "/images/team/siddharth.png",
-    },
+        //"img": "/images/team/siddharth.png",
+    //},
     {
         "campus": "Amritapuri", 
         // "username": "",
